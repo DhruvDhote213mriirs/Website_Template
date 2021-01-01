@@ -1,0 +1,500 @@
+*
+{
+    padding: 0;
+    margin: 0; 
+    scroll-behavior: smooth;
+}
+
+.one
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./beach2.jpg");
+    background-size:cover ;
+    height: 100vh;
+    background-position: center;
+    box-sizing: border-box;        
+}  
+img
+{
+    height: 60px;
+    width: 60px ;
+    top:20px ;
+    left:90px ;
+    float: left;
+    position: relative;
+} 
+ul li
+{
+    list-style-type:none;
+    display:inline-block ;
+    position: relative;
+    left:60% ;
+    top:40px  ;
+    height: 70px;
+}
+ul li a
+{
+    text-decoration: none ;
+    margin: 20px ;
+    color: aliceblue;
+    font-size: 25px ;
+    transition: all linear 1s ;
+    font-family: 'Roboto', sans-serif;    
+}
+ul li a:hover
+{
+    background:none ;
+    border:1px solid white ;
+    padding: 15px ;
+}
+.first
+{
+    font-size: 20px;
+    position: relative;
+    left:400px ;
+    top:200px ;
+    color: white;
+    font-size: 80px;
+    border: 2px solid white;
+    padding: 40px;
+    background: rgba(0,0,0,0.4);
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay:2s ;
+}
+
+@keyframes move 
+{
+    0%
+    {
+        background: rgba(0,0,0,0.4);
+    }
+    20%
+    {
+       background:  rgba(0,255,0,0.3);
+    }
+    40%
+    {
+        background: rgba(0,0,254,0.4);
+    }
+    60%
+    {
+    
+        background: rgba(255,0,0,0.2);
+    }
+    80%
+    {
+        background: none;
+    }
+    100%
+    {
+        background: rgba(0,0,0,0.4);
+    }
+}
+.two
+{
+    height:100vh ;  
+}
+
+table
+{
+    left:40% ;
+    position: relative;
+    top:200px ;
+    color: black;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;    
+}
+.pc
+{
+    width: 400px;
+    height: 350px;
+    left: 100px;
+    top:-200px ;
+    position: relative;
+}
+h1,p
+{
+    position: relative;
+    left:55% ;
+    top:100px ;
+}
+p
+{
+    left:40% ;
+    display: inline-block;
+    width: 50vw;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 40px;
+    left:58% ; 
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+h2
+{
+    position: relative;
+    left: 54%;
+    width:40vw ;
+}
+h2 a
+{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    left:5% ;
+    top:150px;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: all 1s ease-in;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 a:hover
+{
+    color: white;
+    background: black;
+}
+.second
+{
+    position: relative;
+    top:240px ;
+    left: 1%;
+    font-size: 70px;
+    border-radius: 70px;
+    border-color: none;
+    border-style: solid;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background:linear-gradient(to right,rgba(30,215,96,1),rgba(30,215,96,0.8));
+    font-family: 'Fredoka One', cursive;
+}
+.three
+{
+    height: 100vh ;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./wood-leaves-timber-wood-planks-139312.jpg");
+    background-size:cover ;
+}
+
+.four
+{ 
+    height: 80vh;
+    width:70vh ;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+    left:200px ;
+    top:100px;
+}
+.quo
+{
+    position: relative;
+    left:110px ;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:35px ;
+    top:50px ;
+}
+.ps5
+{
+    position: relative;
+    left:80px ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px ;
+    top:130px ;
+    width:50vh ;
+    font-family: 'Roboto', sans-serif;
+}
+.ign
+{
+    position: relative;
+    left:50px ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px ;
+    top:250px ;
+    border: 2px solid white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-top:15px ;
+    font-family: 'Roboto', sans-serif;
+    transition: background 2s linear;
+}
+.gamespot
+{
+    position: relative;
+    left:75px ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px ;
+    top:250px ;
+    border: 2px solid white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top:15px ;
+    font-family: 'Roboto', sans-serif;
+    transition: background 2s linear;
+}
+.ign:hover
+{
+    background-color: rgba(0,255,0,0.4);
+}
+.gamespot:hover
+{
+    background-color: rgba(255,165,0,0.4);
+}
+.ign a
+{
+    text-decoration: none;
+    color:white;
+}
+.gamespot a
+{
+    text-decoration: none;
+    color: white;
+}
+.five
+{ 
+    height: 80vh;
+    width:70vh ;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+    left:900px ;
+    bottom:503px;
+}
+.ddz
+{
+    top:50px ;
+    left:110px ;
+    text-align: center;
+    color: white;
+    font-size:35px ;
+    font-family: 'Roboto', sans-serif;
+}
+.xbox
+{
+    position: relative;
+    left:80px ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px ;
+    top:130px ;
+    width:50vh ;
+    font-family: 'Roboto', sans-serif;
+}
+.ign1
+{
+    position: relative;
+    left:50px ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px ;
+    top:220px ;
+    border: 2px solid white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-top:15px ;
+    font-family: 'Roboto', sans-serif;
+    transition: background 2s linear;
+}
+.gamespot1
+{
+    position: relative;
+    left:75px ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px ;
+    top:220px ;
+    border: 2px solid white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top:15px ;
+    font-family: 'Roboto', sans-serif;
+    transition: background 2s linear;
+}
+.ign1:hover
+{
+    background-color: rgba(0,255,0,0.4);
+}
+.gamespot1:hover
+{
+    background-color: rgba(255,165,0,0.4);
+}
+.ign1 a
+{
+    text-decoration: none;
+    color:white;
+}
+.gamespot1 a
+{
+    text-decoration: none;
+    color: white;
+}
+.six
+{
+    height: 100vh;  
+}
+.seven
+{
+    height: 100vh;
+    width: 70vw;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url("./accessory-buttons-console-control-275033.jpg");
+    background-size:cover ;
+}
+.dhruv
+{
+    position: relative;
+    color: white;
+    font-size: 100px;
+    left:410px;
+    font-family: 'Roboto', sans-serif;
+    top:250px;
+}
+.contact
+{
+    position: relative;
+    color: white;
+    top:405px ;
+    left:-60px ;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid white;
+    width: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: background linear 2s;
+}
+.home
+{
+    color: white;
+    top:405px ;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid white;
+    width: 130px;
+    left:20px ;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    transition: background linear 2s;
+}
+.contact a
+{
+    color: white;
+    text-decoration: none;
+}
+.home a
+{
+    color: white;
+    text-decoration: none;
+}
+.contact:hover
+{
+    background: rgba(255,255,0,0.4);
+}
+.home:hover
+{
+    background: rgba(255,192,203,0.4);
+}
+.control
+{
+    position: relative;
+    left:1260px ;
+    width: 100px;
+    height: 100px;
+}
+.register
+{
+    position: relative;
+    left: 1220px;
+    top:10px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+form
+{
+    position: relative;
+    left: 1120px ;
+    font-family: 'Roboto', sans-serif;
+    top:50px ;
+    width: 25vw;
+}
+
+.fname
+{
+    
+   font-size: 20px; 
+   padding-top:5px ;
+   padding-bottom:5px ;
+   width: 170px;
+   font-family: 'Roboto', sans-serif;
+}
+.lname
+{
+    margin-left:20px;
+    font-size: 20px; 
+   padding-top:5px ;
+   padding-bottom:5px ;
+   width: 170px;
+   font-family: 'Roboto', sans-serif;
+}
+.mobile
+{
+    
+   font-size: 20px; 
+   padding-top:5px ;
+   padding-bottom:5px ;
+   width: 360px;
+   font-family: 'Roboto', sans-serif;
+}
+.email
+{
+    
+   font-size: 20px; 
+   padding-top:5px ;
+   padding-bottom:5px ;
+   width: 360px;
+   font-family: 'Roboto', sans-serif;
+}
+.key
+{
+    font-size: 20px; 
+    padding-top:5px ;
+    padding-bottom:5px ;
+    width: 360px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.reg
+{
+    font-size: 30px; 
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left: 30px;
+    padding-right:30px ;
+    width: 360px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    border-style: solid ;
+    border-color:none ;
+    background:linear-gradient(to right,rgba(30,215,96,1),rgba(30,215,96,0.8));
+    color: white;
+}
